@@ -1,0 +1,25 @@
+{
+  "name": "exercicio-gulp",
+  "version": "1.0.0",
+  "description": "Projeto de automação de tarefas com Gulp — EBAC Front-End M16",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp",
+    "sass": "gulp compileSass",
+    "images": "gulp compressImages",
+    "js": "gulp minifyJS",
+    "watch": "gulp watch"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.63.6",
+    "gulp-uglify": "^3.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-rename": "^2.0.0"
+  },
+  "keywords": ["gulp", "sass", "imagemin", "uglify", "automação"],
+  "author": "",
+  "license": "ISC"
+}

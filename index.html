@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galeria — Exercício Gulp</title>
+  <link rel="stylesheet" href="dist/css/main.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🌿 Galeria Natural</h1>
+    <nav>
+      <a href="#galeria">Galeria</a>
+      <a href="#sobre">Sobre</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="galeria">
+      <h2>Fotos da Natureza</h2>
+
+      <div class="gallery">
+
+        <div class="gallery__item">
+          <img src="dist/images/bird-ga5d9ed257_1920.jpg" alt="Pássaro" />
+          <p class="caption">🐦 Pássaro em plumagem vibrante</p>
+        </div>
+
+        <div class="gallery__item">
+          <img src="dist/images/birds-g6b63afc7a_1920.jpg" alt="Pássaros" />
+          <p class="caption">🦜 Bando de pássaros coloridos</p>
+        </div>
+
+        <div class="gallery__item">
+          <img src="dist/images/butterfly-g7f3546b64_1920.jpg" alt="Borboleta" />
+          <p class="caption">🦋 Borboleta sobre a flor</p>
+        </div>
+
+        <div class="gallery__item">
+          <img src="dist/images/hands-gc143a78ba_1920.png" alt="Mãos" />
+          <p class="caption">🤝 Conexão com a natureza</p>
+        </div>
+
+        <div class="gallery__item">
+          <img src="dist/images/lilies-g19bcb21a4_1920.jpg" alt="Lírios" />
+          <p class="caption">🌸 Campo de lírios em flor</p>
+        </div>
+
+        <div class="gallery__item">
+          <img src="dist/images/street-gddeece843_1920.jpg" alt="Rua" />
+          <p class="caption">🌳 Rua arborizada</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="sobre" style="margin-top:3rem">
+      <h2>Sobre o Projeto</h2>
+      <p style="margin-top:1rem">
+        Projeto desenvolvido com <strong>Gulp</strong> para automatizar:
+        compilação de SASS, compressão de imagens e minificação de JavaScript.
+      </p>
+      <div style="margin-top:1rem">
+        <button class="btn btn--primary" onclick="alert('Gulp em ação! ✅')">Saiba Mais</button>
+        <button class="btn btn--secondary" style="margin-left:0.5rem" onclick="window.scrollTo({top:0,behavior:'smooth'})">Voltar ao Topo</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Exercício Gulp — EBAC Front-End</p>
+  </footer>
+
+  <script src="dist/js/main.min.js"></script>
+</body>
+</html>
